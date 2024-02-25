@@ -6,3 +6,4 @@ mod p242_valid_anagram;
 mod p150_evaluate_reverse_polish_notation;
 mod p205_isomorphic_strings;
 mod p11_container_with_most_water;
+mod p985_sum_of_even_nums_after_queries;

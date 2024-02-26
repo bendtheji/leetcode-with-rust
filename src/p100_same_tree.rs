@@ -2,6 +2,7 @@
 
 use std::cell::RefCell;
 use std::rc::Rc;
+
 use crate::bst_util::TreeNode;
 
 pub fn is_same_tree(p: Option<Rc<RefCell<TreeNode>>>, q: Option<Rc<RefCell<TreeNode>>>) -> bool {
@@ -12,7 +13,7 @@ pub fn is_same_tree(p: Option<Rc<RefCell<TreeNode>>>, q: Option<Rc<RefCell<TreeN
             let root_q = y.borrow();
             root_p.val == root_q.val && is_same_tree(root_p.left.clone(), root_q.left.clone())
                 && is_same_tree(root_p.right.clone(), root_q.right.clone())
-        },
+        }
         _ => false,
     }
 }
@@ -23,7 +24,7 @@ mod tests {
     use crate::p100_same_tree::is_same_tree;
 
     #[test]
-    fn test_one(){
+    fn test_one() {
         let left = build_tree("[1,2,3]");
         let right = build_tree("[1,2,3]");
         assert!(is_same_tree(left, right));
@@ -31,7 +32,7 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn test_two(){
+    fn test_two() {
         let left = build_tree("[1,2]");
         let right = build_tree("[1,null,2]");
         assert!(is_same_tree(left, right));
@@ -39,7 +40,7 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn test_three(){
+    fn test_three() {
         let left = build_tree("[1,2,1]");
         let right = build_tree("[1,1,2]");
         assert!(is_same_tree(left, right));

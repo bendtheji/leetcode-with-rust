@@ -11,3 +11,4 @@ mod p100_same_tree;
 mod p212_word_search_ii;
 mod p637_average_of_levels_in_binary_tree;
 mod p139_word_break;
+mod p543_diameter_of_binary_tree;

@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 
 use std::collections::HashMap;
+
 pub fn is_anagram(s: String, t: String) -> bool {
     let mut s_map = HashMap::new();
     let mut t_map = HashMap::new();
@@ -16,7 +17,7 @@ pub fn is_anagram(s: String, t: String) -> bool {
 }
 
 #[cfg(test)]
-mod tests{
+mod tests {
     use crate::p242_valid_anagram::is_anagram;
 
     #[test]
@@ -25,14 +26,12 @@ mod tests{
     }
 
     #[test]
-    #[should_panic]
     fn test_two() {
-        assert!(is_anagram(String::from("rat"), String::from("car")))
+        assert_eq!(is_anagram(String::from("rat"), String::from("car")), false)
     }
 
     #[test]
-    #[should_panic]
     fn test_three() {
-        assert!(is_anagram(String::from("ab"), String::from("a")))
+        assert_eq!(is_anagram(String::from("ab"), String::from("a")), false)
     }
 }

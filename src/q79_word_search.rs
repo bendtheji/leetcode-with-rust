@@ -63,17 +63,16 @@ mod tests {
 
     #[test]
     fn test_one() {
-        assert!(exist(vec![vec!['A','B','C','E'],vec!['S','F','C','S'],vec!['A','D','E','E']], String::from("ABCCED")))
+        assert!(exist(vec![vec!['A', 'B', 'C', 'E'], vec!['S', 'F', 'C', 'S'], vec!['A', 'D', 'E', 'E']], String::from("ABCCED")))
     }
 
     #[test]
     fn test_two() {
-        assert!(exist(vec![vec!['A','B','C','E'],vec!['S','F','C','S'],vec!['A','D','E','E']], String::from("SEE")))
+        assert!(exist(vec![vec!['A', 'B', 'C', 'E'], vec!['S', 'F', 'C', 'S'], vec!['A', 'D', 'E', 'E']], String::from("SEE")))
     }
 
     #[test]
-    #[should_panic]
     fn test_three() {
-        assert!(exist(vec![vec!['A','B','C','E'],vec!['S','F','C','S'],vec!['A','D','E','E']], String::from("ABCB")))
+        assert_eq!(exist(vec![vec!['A', 'B', 'C', 'E'], vec!['S', 'F', 'C', 'S'], vec!['A', 'D', 'E', 'E']], String::from("ABCB")), false)
     }
 }

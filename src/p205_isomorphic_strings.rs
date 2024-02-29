@@ -12,12 +12,12 @@ pub fn is_isomorphic(s: String, t: String) -> bool {
                 if c != c2 {
                     return false;
                 }
-            },
+            }
             None => {
                 if used.contains(&c2) { return false; }
                 used.insert(c2);
                 map.insert(c1, c2);
-            },
+            }
         }
     }
     true
@@ -33,9 +33,8 @@ mod tests {
     }
 
     #[test]
-    #[should_panic]
     fn test_two() {
-        assert!(is_isomorphic("foo".to_string(), "bar".to_string()));
+        assert_eq!(is_isomorphic("foo".to_string(), "bar".to_string()), false);
     }
 
     #[test]

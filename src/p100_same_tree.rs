@@ -31,18 +31,16 @@ mod tests {
     }
 
     #[test]
-    #[should_panic]
     fn test_two() {
         let left = build_tree("[1,2]");
         let right = build_tree("[1,null,2]");
-        assert!(is_same_tree(left, right));
+        assert_eq!(is_same_tree(left, right), false);
     }
 
     #[test]
-    #[should_panic]
     fn test_three() {
         let left = build_tree("[1,2,1]");
         let right = build_tree("[1,1,2]");
-        assert!(is_same_tree(left, right));
+        assert_eq!(is_same_tree(left, right), false);
     }
 }

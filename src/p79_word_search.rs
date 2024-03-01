@@ -59,7 +59,7 @@ fn backtracking(board_row: i32, board_col: i32, board: &Vec<Vec<char>>, word: &V
 
 #[cfg(test)]
 mod tests {
-    use crate::q79_word_search::exist;
+    use crate::p79_word_search::exist;
 
     #[test]
     fn test_one() {

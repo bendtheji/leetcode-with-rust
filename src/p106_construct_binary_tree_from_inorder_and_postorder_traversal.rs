@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::cell::RefCell;
 use std::rc::Rc;
 
@@ -29,13 +31,13 @@ fn build_tree_from_slice(inorder: &[i32], postorder: &[i32]) -> Option<Rc<RefCel
 
 #[cfg(test)]
 mod tests {
-    use crate::p106_construct_binary_tree_from_inorder_and_postorder_traversal::build_tree;
     use crate::bst_util;
+    use crate::p106_construct_binary_tree_from_inorder_and_postorder_traversal::build_tree;
 
     #[test]
     fn test_one() {
-        let inorder = vec![9,3,15,20,7];
-        let postorder = vec![9,15,7,20,3];
+        let inorder = vec![9, 3, 15, 20, 7];
+        let postorder = vec![9, 15, 7, 20, 3];
 
         let expected = build_tree(inorder, postorder);
         let output = bst_util::build_tree("[3,9,20,null,null,15,7]");

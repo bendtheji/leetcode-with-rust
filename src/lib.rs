@@ -18,3 +18,4 @@ mod p106_construct_binary_tree_from_inorder_and_postorder_traversal;
 mod p82_remove_duplicates_from_sorted_list_ii;
 mod p1609_even_odd_tree;
 mod p2864_maximum_odd_binary;
+mod p19_remove_nth_node_from_end_of_list;

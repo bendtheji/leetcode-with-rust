@@ -21,3 +21,4 @@ mod p2864_maximum_odd_binary;
 mod p19_remove_nth_node_from_end_of_list;
 mod p238_product_of_array_except_self;
 mod p948_bag_of_tokens;
+mod p12_integer_to_roman;

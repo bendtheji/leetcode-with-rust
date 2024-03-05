@@ -22,3 +22,4 @@ mod p19_remove_nth_node_from_end_of_list;
 mod p238_product_of_array_except_self;
 mod p948_bag_of_tokens;
 mod p12_integer_to_roman;
+mod p1750_min_length_of_string_after_deleting_similar_ends;

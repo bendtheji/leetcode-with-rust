@@ -28,3 +28,4 @@ mod p876_middle_of_linked_list;
 mod p151_reverse_words_in_a_string;
 mod p57_insert_interval;
 mod p3005_count_elements_with_maximum_frequency;
+mod p86_partition_list;

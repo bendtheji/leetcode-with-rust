@@ -25,3 +25,4 @@ mod p12_integer_to_roman;
 mod p1750_min_length_of_string_after_deleting_similar_ends;
 mod p289_game_of_life;
 mod p876_middle_of_linked_list;
+mod p151_reverse_words_in_a_string;

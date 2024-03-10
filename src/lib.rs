@@ -31,3 +31,4 @@ mod p3005_count_elements_with_maximum_frequency;
 mod p86_partition_list;
 mod p221_maximal_square;
 mod p54_spiral_matrix;
+mod p433_minimum_genetic_mutation;

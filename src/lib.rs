@@ -33,3 +33,4 @@ mod p221_maximal_square;
 mod p54_spiral_matrix;
 mod p433_minimum_genetic_mutation;
 mod p791_custom_sort_string;
+mod p1171_remove_zero_sum_consecutive_nodes_from_linked_list;

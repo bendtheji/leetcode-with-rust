@@ -36,3 +36,4 @@ mod p791_custom_sort_string;
 mod p1171_remove_zero_sum_consecutive_nodes_from_linked_list;
 mod p2485_find_the_pivot_integer;
 mod p442_find_all_duplicates_in_an_array;
+mod p41_first_missing_positive;

@@ -1,4 +1,5 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
+
 pub fn find_duplicates(mut nums: Vec<i32>) -> Vec<i32> {
     let mut result = vec![];
     for i in 0..nums.len() {

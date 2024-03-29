@@ -1,4 +1,5 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
+
 pub fn first_missing_positive(mut nums: Vec<i32>) -> i32 {
     let n = nums.len();
     for i in 0..n {

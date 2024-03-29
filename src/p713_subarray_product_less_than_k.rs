@@ -1,4 +1,5 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
+
 pub fn num_subarray_product_less_than_k(nums: Vec<i32>, k: i32) -> i32 {
     if k <= 1 { return 0; }
 

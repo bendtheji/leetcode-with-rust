@@ -38,3 +38,4 @@ mod p2485_find_the_pivot_integer;
 mod p442_find_all_duplicates_in_an_array;
 mod p41_first_missing_positive;
 mod p713_subarray_product_less_than_k;
+mod p2962_count_subarrays_where_max_element_appears_at_least_k_times;

@@ -41,3 +41,4 @@ mod p713_subarray_product_less_than_k;
 mod p2962_count_subarrays_where_max_element_appears_at_least_k_times;
 mod p253_meeting_rooms_ii;
 mod p992_subarrays_with_k_different_integers;
+mod p2958_length_of_longest_subarray_with_at_most_k_frequency;

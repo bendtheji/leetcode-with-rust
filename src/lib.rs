@@ -43,3 +43,4 @@ mod p253_meeting_rooms_ii;
 mod p992_subarrays_with_k_different_integers;
 mod p2958_length_of_longest_subarray_with_at_most_k_frequency;
 mod p2444_count_subarrays_with_fixed_bounds;
+mod p58_length_of_last_word;

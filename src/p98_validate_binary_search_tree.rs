@@ -25,9 +25,7 @@ fn traverse(curr: Option<Rc<RefCell<TreeNode>>>, invalid: &mut bool) -> (i32, i3
         let left_valid = match left.clone() {
             Some(_) => {
                 (left_min, left_max) = traverse(left.clone(), invalid);
-                if left_max >= root_val {
-                    false
-                } else { true }
+                if left_max >= root_val { false } else { true }
             }
             None => true,
         };
@@ -35,9 +33,7 @@ fn traverse(curr: Option<Rc<RefCell<TreeNode>>>, invalid: &mut bool) -> (i32, i3
         let right_valid = match right.clone() {
             Some(_) => {
                 (right_min, right_max) = traverse(right.clone(), invalid);
-                if right_min <= root_val {
-                    false
-                } else { true }
+                if right_min <= root_val { false } else { true }
             }
             None => true,
         };

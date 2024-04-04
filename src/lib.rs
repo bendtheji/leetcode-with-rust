@@ -45,3 +45,4 @@ mod p2958_length_of_longest_subarray_with_at_most_k_frequency;
 mod p2444_count_subarrays_with_fixed_bounds;
 mod p58_length_of_last_word;
 mod p98_validate_binary_search_tree;
+mod p1614_maximum_nesting_depth_of_the_parentheses;

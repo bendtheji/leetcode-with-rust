@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::cmp;
 
 pub fn max_depth(s: String) -> i32 {

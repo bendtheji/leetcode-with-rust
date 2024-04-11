@@ -51,3 +51,4 @@ mod p1249_minimum_remove_to_make_valid_parentheses;
 mod p1700_number_of_students_unable_to_eat_lunch;
 mod p2073_time_needed_to_buy_tickets;
 mod p950_reveal_cards_in_increasing_order;
+mod p496_next_greater_element_i;

@@ -53,3 +53,4 @@ mod p2073_time_needed_to_buy_tickets;
 mod p950_reveal_cards_in_increasing_order;
 mod p496_next_greater_element_i;
 mod p402_remove_k_digits;
+mod p226_invert_binary_tree;

@@ -23,6 +23,7 @@ pub fn build_tree(nodes: &str) -> Option<Rc<RefCell<TreeNode>>> {
         .map(|x| x.trim()) // Some more trimming never hurts...
         .collect();
 
+    println!("values: {:?}", values);
     if values.is_empty() {
         return None;
     }

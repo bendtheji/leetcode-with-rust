@@ -57,3 +57,4 @@ mod p226_invert_binary_tree;
 mod p101_symmetric_tree;
 mod p200_number_of_islands;
 mod p2220_minimum_bit_flips_to_convert_number;
+mod p2997_minimum_number_of_operations_to_make_array_xor_equal_to_k;

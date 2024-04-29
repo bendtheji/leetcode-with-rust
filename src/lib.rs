@@ -56,3 +56,4 @@ mod p402_remove_k_digits;
 mod p226_invert_binary_tree;
 mod p101_symmetric_tree;
 mod p200_number_of_islands;
+mod p2220_minimum_bit_flips_to_convert_number;

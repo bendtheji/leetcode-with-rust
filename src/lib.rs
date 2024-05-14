@@ -61,3 +61,4 @@ mod p2997_minimum_number_of_operations_to_make_array_xor_equal_to_k;
 mod p2441_largest_positive_integer_that_exists_with_its_negative;
 
 mod p3075_maximize_happiness_of_selected_children;
+mod p1219_path_with_maximum_gold;

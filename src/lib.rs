@@ -62,3 +62,5 @@ mod p2441_largest_positive_integer_that_exists_with_its_negative;
 
 mod p3075_maximize_happiness_of_selected_children;
 mod p1219_path_with_maximum_gold;
+
+mod p2812_find_the_safest_path_in_a_grid;

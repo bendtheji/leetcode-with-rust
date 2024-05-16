@@ -64,3 +64,4 @@ mod p3075_maximize_happiness_of_selected_children;
 mod p1219_path_with_maximum_gold;
 
 mod p2812_find_the_safest_path_in_a_grid;
+mod p2331_evaluate_boolean_binary_tree;

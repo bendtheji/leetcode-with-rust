@@ -65,3 +65,4 @@ mod p1219_path_with_maximum_gold;
 
 mod p2812_find_the_safest_path_in_a_grid;
 mod p2331_evaluate_boolean_binary_tree;
+mod p1325_delete_leaves_with_a_given_value;

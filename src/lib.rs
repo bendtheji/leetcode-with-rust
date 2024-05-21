@@ -68,3 +68,4 @@ mod p2331_evaluate_boolean_binary_tree;
 mod p1325_delete_leaves_with_a_given_value;
 mod p1863_sum_of_all_subset_xor_totals;
 mod p78_subsets;
+mod p979_distribute_coins_in_binary_tree;

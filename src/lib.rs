@@ -70,3 +70,4 @@ mod p1863_sum_of_all_subset_xor_totals;
 mod p78_subsets;
 mod p979_distribute_coins_in_binary_tree;
 mod p2597_the_number_of_beautiful_subsets;
+mod p1255_maximum_score_words_formed_by_letters;

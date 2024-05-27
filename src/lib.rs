@@ -71,3 +71,4 @@ mod p78_subsets;
 mod p979_distribute_coins_in_binary_tree;
 mod p2597_the_number_of_beautiful_subsets;
 mod p1255_maximum_score_words_formed_by_letters;
+mod p1608_special_array_with_x_elements_greater_than_or_equal_x;

@@ -75,3 +75,4 @@ mod p1608_special_array_with_x_elements_greater_than_or_equal_x;
 mod p1208_get_equal_substrings_within_budget;
 mod p552_student_attendance_record_ii;
 mod p140_word_break_ii;
+mod p1404_number_of_steps_to_reduce_a_number_in_binary_representation_to_one;

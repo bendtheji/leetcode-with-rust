@@ -24,7 +24,7 @@ mod tests {
 
     #[test]
     fn test_two() {
-        let mut s = vec!['H', 'a', 'n', 'n', 'a', 'h'];
+        let mut s = vec!['H', 'a', 'n', 'n', 'a', 'h']; 
         let expected = vec!['h', 'a', 'n', 'n', 'a', 'H'];
         reverse_string(&mut s);
         assert_eq!(expected, s);

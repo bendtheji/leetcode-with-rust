@@ -81,3 +81,4 @@ mod p344_reverse_string;
 mod p974_subarray_sums_divisible_by_k;
 mod p75_sort_colors;
 mod p2037_min_number_of_moves_to_seat_everyone;
+mod p1482_minimum_number_of_days_to_make_m_bouquets;
